@@ -13,7 +13,6 @@ $(window).on('keydown',function(event) {
       return ;
     }
     let divs;
-    // .style.background-color = `rgb(${red},${green},${blue})`;
     let deg = Math.round(255/(inpVal/2));
     for(let i = 0; i<inpVal;i++){
       $('section').append('<div></div>');
@@ -26,9 +25,5 @@ $(window).on('keydown',function(event) {
         divs[i].style.backgroundColor = `rgb(${red},${green},${blue})`;
       }
     }
-    // let divs = $('div')
-    // for(let i of divs){
-    //
-    // }
   }
 })
